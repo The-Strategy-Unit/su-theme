@@ -4,7 +4,7 @@ version: 1.0.0
 contributes:
   format:
     revealjs:
-      theme: [default, ../su_presentation.scss]
+      theme: [default, su_presentation.scss]
       transition: none
       chalkboard:
         buttons: false
