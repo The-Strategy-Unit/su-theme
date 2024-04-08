@@ -1,0 +1,6 @@
+.Rproj.user
+.Rhistory
+.Rdata
+/.quarto/
+*.html
+*.Rproj
