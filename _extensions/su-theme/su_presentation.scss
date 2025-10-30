@@ -57,23 +57,8 @@ $presentation-heading-color: $su-charcoal;
 
 // need to figure out how to add in :not(.panel-tabset-tabby)
 .reveal .slide ul {
-  li {
-    list-style: none;
-    /* Remove default bullets */
-  }
-
-  li::before {
-    content: "\25FC";
-    /* Add content: \2022 is the CSS Code/unicode for a bullet; add a space for easier alignment! */
+  li::marker {
     color: $highlight-color;
-    /* Change the color */
-    display: inline-block;
-    /* Needed to add space between the bullet and the text */
-    width: 1.5em;
-    /* Also needed for space (tweak if needed) */
-    margin-left: -1.5em;
-    /* Also needed for space (tweak if needed) */
-    font-size: 66%;
   }
 }
 
